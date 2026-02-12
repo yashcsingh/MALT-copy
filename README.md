@@ -1,0 +1,1 @@
+This project is named MALT (i.e. Malware Analysis Tool)
