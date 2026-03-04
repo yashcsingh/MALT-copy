@@ -35,9 +35,6 @@ public class Test1 {
 
         System.out.println("Project creation test passed");
 
-        // Step 5: Cleanup (delete test project)
-        collection.deleteOne(new Document("projectname", testProjectName));
-
         mongo.close();
     }
 }
